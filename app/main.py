@@ -16,6 +16,13 @@ app = FastAPI(
     description="POST one short message with one CTA link; it is published to several platforms via their APIs.",
     version="1.0.0",
 )
+@app.get("/")
+async def home():
+    return {
+        "message": "Automated Multi-Platform Posting System is running!",
+        "docs": "/docs",
+        "endpoint": "/posting"
+    }
 
 
 @app.exception_handler(RequestValidationError)
