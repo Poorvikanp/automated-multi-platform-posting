@@ -261,6 +261,13 @@ automated-posting/
 - No API tokens or private credentials should be committed to the repository.
 - Use platform-specific tokens and permissions with only the required access.
 
+## Live Deployment
+
+- Live API: https://automated-multi-platform-posting.onrender.com/
+- Swagger Documentation: https://automated-multi-platform-posting.onrender.com/docs
+
+Deployed using Render.
+
 ## Author
 
 **Poorvika N P**
